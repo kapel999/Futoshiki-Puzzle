@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-May-2019, 17:46:44
+    Author     : 184510
+*/
+
+/*Styling the front screen and everything within it.*/
+.startBorder{
+    -fx-background-color: #CCFF99;  
+}
+
+.gameTitle{
+    -fx-font: 100px "Serif";
+    -fx-font-weight: bold;
+    -fx-text-fill: #454343;
+}
+
+.startScreenButtonNewGame{
+    -fx-background-color: #454343;
+    -fx-text-fill: white;
+    -fx-font: 44px "Serif";
+    -fx-padding: 25 30 25 30;
+}
+
+.startScreenButtonNewGame:hover{
+    -fx-background-color: #343232;
+}
+
+.startScreenButtonInstructions{
+    -fx-background-color: #454343;
+    -fx-text-fill: white;
+    -fx-font: 44px "Serif";
+    -fx-padding: 25 25 25 25;
+}
+
+.startScreenButtonInstructions:hover{
+    -fx-background-color: #343232;
+}
+
+/*Styling for the popup box containing the instructions on how to play the game*/
+.instructionsText{
+    -fx-font: 20px "Serif";
+    -fx-padding: 0px 0px 10px 0px;   
+}
+
+.instructionsBox{
+    -fx-background-color: #CCFF99;
+    -fx-padding: 10px;
+}
+
+.closeInstructionButton{
+    -fx-background-color: #454343;
+    -fx-text-fill: white;
+    -fx-font: 20px "Serif";
+    -fx-font-weight: bold;
+}
+
+.closeInstructionButton:hover{
+    -fx-background-color: #343232;
+}
+
+/*From this point styling for screen that let's user choose settings for their 
+game begins'*/
+.gameSettingsBox{
+    -fx-background-color: #CCFF99;
+}
+
+.settingsScreenText{
+    -fx-font: 20px "Serif";
+    -fx-text-fill: #454343;
+    -fx-font-weight: bold;
+}
+
+.settingsScreenComboBoxes{
+    -fx-background-color: #454343;
+    -fx-size: 100px;
+}
+
+.settingsScreenComboBoxes:hover{
+    -fx-background-color: #343232;
+}
+
+.settingsScreenComboBoxes .list-view .list-cell{
+    -fx-background-color: #454343;
+}
+
+.settingsScreenComboBoxes .list-view{
+    -fx-background-color: #454343;
+}
+
+.settingsScreenComboBoxes .list-view .list-cell:hover{
+    -fx-background-color: #343232;
+}
+
+.settingsScreenComboBoxes .arrow{
+    -fx-background-color: white;
+    -fx-alignment: center_right;
+}
+
+.settingsScreenComboBoxes .cell{
+    -fx-text-fill: white;
+    -fx-font: 20px "Serif";
+    -fx-alignment: center_left;
+    -fx-padding: 5 10 5 10;
+    -fx-font-weight: bold;
+}
+
+.createNewGame{
+    -fx-background-color: #454343;
+    -fx-text-fill: white;
+    -fx-font: 35px "Serif";
+    -fx-font-weight: bold;
+}
+
+.createNewGame:hover{
+    -fx-background-color: #343232;
+}
+
+/*From this point the feedback screen will be styled*/
+
+.feedbackBox{
+    -fx-background-color: #CCFF99;
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+
+.feedbackInformation{
+    -fx-text-fill: #454343;
+    -fx-font: 20px "Serif";
+    -fx-padding: 0 0 10 0;
+    -fx-font-weight: bold;
+}
+
+.continueButton{
+    -fx-background-color: #454343;
+    -fx-text-fill: white;
+    -fx-font: 20px "Serif";
+    -fx-font-weight: bold;
+}
+
+.continueButton:hover{
+    -fx-background-color: #343232;
+}
+
+/*From this point the game board screen will be styled*/
+
+.gameBoardScreen{
+    -fx-background-color: #CCFF99;
+}
+
+.square{
+    -fx-background-color: #454343;
+    -fx-font: 15px "Serif";
+    -fx-text-fill: white;
+}
+
+.square:hover{
+    -fx-background-color: #343232;
+}
+
+.sideButtonsBox{
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+
+.gameBoardButtons{
+    -fx-background-color: #454343;
+    -fx-text-fill: white;
+    -fx-font: 20px "Serif";
+    -fx-font-weight: bold;
+}
+
+.gameBoardButtons:hover{
+    -fx-background-color: #343232;
+}
+
+.squaresGrid{
+    -fx-alignment: center;
+    -fx-border-color:#454343;
+    -fx-border-width: 5;
+    -fx-padding: 5;
+}
+
+.errorMessages{
+    -fx-font: 20px "Serif";
+    -fx-text-fill: #454343;
+    -fx-padding: 10;
+}
+
+.colConstraints{
+    -fx-font-size: 20px;
+    -fx-text-fill: #454343;
+    -fx-padding: 0 3 0 3;
+}
+
+.rowConstraints{
+    -fx-font-size: 20px;
+    -fx-text-fill: #454343;
+    -fx-padding: 0 3 0 3;
+}
